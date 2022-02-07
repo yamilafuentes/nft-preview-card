@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300&family=Outfit:wght@400;600&display=swap');
+
+
+img {
+  width: 100%;
+  cursor: pointer; 
+  border-radius: 12px;
+}
+
+.image {
+  position: relative;
+}
+
+.main-img {
+ position:static; 
+
+}
+
+.icon {
+  bottom: 86px;
+  left: 93px;
+  position: absolute;
+  opacity: 0;
+}
+
+.image:hover .icon {
+  opacity: 1; 
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-family: 'Outfit', sans-serif;
+}
+
+#container {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+
+.card {
+  margin: 20px;
+  padding: 14px;
+  text-align: left;
+  border-radius: 12px; 
+  background-color: hsl(216, 50%, 16%);
+}
+
+.title {
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 9px;
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 100;
+  color: hsl(215, 51%, 70%);
+}
+
+.left {
+  width: 11px;
+  height: 18px;
+  padding-right: 5px;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+}
+
+.left-text {
+  padding-left: 2px;
+  margin-right: 40px;
+  font-weight: 600;
+  color: hsl(178, 100%, 50%);
+}
+
+.right {
+  width: 17px;
+  height: 17px;
+  padding-right: 5px;
+}
+
+.right-text {
+  padding-left: 1px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.midle-container {
+  display: flex; 
+  padding: 1px;
+  padding-bottom: 20px;
+  align-items: center;
+}
+
+.img-avatar {
+  width: 25px;
+  height: 25px;
+  border: solid white 1px;
+  border-radius: 50%;
+}
+
+.footer {
+  display: flex;
+  padding: 1px; 
+  align-items: center; 
+  border-top: 2px solid hsl(215, 32%, 27%); 
+  padding-top: 15px; 
+}
+
+.created {
+  padding-left: 12px;
+  padding-right: 5px;
+  font-size: 15px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.name {
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
